@@ -51,12 +51,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot. I will use my angel Zafkiel and protect your group. You can find my list of available commands with /help.
+Hi {}, my name is Sora! 
+I am an Anime themed group management bot. I will use wing of heaven and protect your group. You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-KURUMI is here! 
+Sora is here! 
 I Use My Powers To Help Admins To Manage Their Groups! 
 *Main* commands available :
  • /help: PM's you this message.
@@ -198,20 +198,20 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🚨 Support 🚨",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/PokeClubX{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="My luv ❤",
-                             url="https://t.me/A_lonelyPerson")
+                             url="https://t.me/Todoroki_Shoto_777")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="🔔 Updates of KURUMI 🔔",
-                             url="https://t.me/hiroiscool")
+                             text="🔔 Updates of Sora 🔔",
+                             url="https://t.me/sparkysunny")
                     ], 
                      [
                          InlineKeyboardButton(
                              text="📳 Anime Chat Group 📳",
-                             url="https://t.me/WeebXWorld")
+                             url="https://t.me/animefan_club777")
                     ]]))
                      
                     
@@ -533,8 +533,8 @@ def migrate_chats(update: Update, context: CallbackContext):
 def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
-        try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[My Zaphkiel won't let me die!](https://telegra.ph/file/b069f7fbe7eecdb56c36c.mp4)", parse_mode=ParseMode.MARKDOWN) 
+        try:(https://telegra.ph/file/b069f7fbe7eecdb56c36c.mp4
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[My Sanji won't let me die!])",(https://telegra.ph/file/19896d4051fd8b2e5cc0e.jpg) parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
