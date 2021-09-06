@@ -70,7 +70,7 @@ For all command use / [or](https://telegra.ph/file/b1b545eb4877b012eac82.png) !
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
 TOKISAKI_IMG = "https://telegra.ph/file/19896d4051fd8b2e5cc0e.jpg"
-KURUMI_IMG = "https://telegra.ph/file/ed4032d50b533cd9bd888.jpg"
+KURUMI_IMG = "https://telegra.ph/file/17dd887f982b72947089e.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Click here to donate in [Paypal](https://www.paypal.me/zameeljaz)"""
