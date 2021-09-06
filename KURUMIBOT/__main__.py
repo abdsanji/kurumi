@@ -533,7 +533,7 @@ def migrate_chats(update: Update, context: CallbackContext):
 def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
-        try:(https://telegra.ph/file/b069f7fbe7eecdb56c36c.mp4
+        try:()
             dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[My Sanji won't let me die!])",(https://telegra.ph/file/19896d4051fd8b2e5cc0e.jpg) parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
