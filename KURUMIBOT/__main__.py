@@ -191,16 +191,16 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Kurumi Chan to your group",
+                            text=" 📢 Add Sora to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚨 Support 🚨",
+                             text=" 🔷 Support 🔷 ",
                              url=f"https://t.me/PokeClubX{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
-                             text="My luv ❤",
+                             text="My channel ❤",
                              url="https://t.me/Todoroki_Shoto_777")
                     ], 
                      [
@@ -210,7 +210,7 @@ def start(update: Update, context: CallbackContext):
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="📳 Anime Chat Group 📳",
+                             text="🌈 Anime Chat Group 🌈",
                              url="https://t.me/animefan_club777")
                     ]]))
                      
